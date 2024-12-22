@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+  }
+  .navbar{
+    height:70px;
+    background-color:#0f1111;
+    color:white;
+    Display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  .nava-logo{
+    height:50px;
+    width:100px;
+  }
+  .logo{
+    background-image: url("ayush.jpg");
+    height:50px;
+    width:100%;
+    background-size: cover;
+  }
+  .border{
+    border:2px solid transparent;
+  }
+  .border:hover{
+    border:1.5px solid white;
+  }
+  /*** box2**/
+  .add-first{
+         font-size:0.85rem;
+         color:#cccccc;
+         margin-left:15px;
+  }
+  .add-sec{
+       font-size:1rem;
+       margin-left:3px;
+  }
+  .add-icon{
+    display:flex;
+    align-items:center;
+  }
+  /*box3*/
+  .nav-search{
+    display:flex;
+    height:40px;
+    width:620px;
+    border-radius:4px;
+  }
+  .search-select{
+       background-color:#E6E6E6;
+       color:#0f1111;
+       font-size: 14px;
+       border-top-left-radius:4px;
+       border-bottom-left-radius:4px;
+       border:none;
+  }
+  .search-input{
+    width:100%;
+    border:none;
+    font-size:1rem;
+  }
+  .search-icon{
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:rgb(218, 148, 17);
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+  }
+  .nav-second{
+      font-size:14px;
+      font: weight 700px;
+  }
+  span{
+    font-size: 12px;
+  }
+  .third{
+    font-size:16px;
+    font-weight:700px;
+  }
+  .border{
+    border:2px solid transparent;
+    border-radius:0;
+  }
+  .border:hover{
+    border:2px solid white;
+    border-radius:4px;
+  }
+  
+  .nav-search:hover{
+    border:2px solid orange;
+  }
+  .nav-cart i {
+    font-size:40px;
+  }
+  .nav-notify i{
+    font-size:34px;
+  }
+  /** nav 2*/
+  .nav-menu i{
+  font-size:30px;
+  }
+  .panel{
+    height:60px;
+    background-color: #222f3d;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size:1.15rem;
+    color:white;
+    font-weight:450;
+  }
+  .panel-ops p{
+    margin:13px;
+    display: inline;
+    margin-left:15px;
+  }
+  .panel-ops{
+    margin:13px;
+    width:70%;
+ 
+  }
+  .panel-deals {
+    margin:13px;
+ 
+    font-weight :700px;
+    margin-right:20px;
+  }
+  .panel-all i{
+    margin:13px;
+  }
+  .hero-section{
+    height:500px;
+    background-image:url("new_book.jpg");
+    background-image:cover;
+    display:flex;
+    justify-content: center;
+    align-items:flex-end;
+
+  }
+.hero-msg{
+         background-color:white;
+         color:black;
+         height:40px;
+         display:flex;
+         align-items: center;
+         justify-content: center;
+         font-size: 0.85rem;
+         width:80%;
+         margin-bottom:40px;
+}
+.hero-msg a{
+    color:#007185;
+}
+.shopping{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#dddddd;
+    font-family:Arial;
+}
+.box{
+    height:400px;
+    width:23%;
+    background-color:white;
+    padding:20px 0px 15px;
+    margin-top: 15px;
+}
+.box-image{
+  height:300px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.box-contain{
+  margin-left:1rem; 
+  margin-right:1rem;
+}
+.box-contain p {
+ font-size:10px;
+ color:#007185;
+}
+.box-contain h2{
+  font-size:18px;
+}
+/**footer **/
+.footer{
+  margin-top:15px;
+}
+
+.ayush{
+  height:65px;
+  background-color: #3a3d40;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  color:white;
+}
+/* .ayush:hover{
+  background-color: #55687b;
+} */
+ #ji{
+    text-decoration: none;
+    color:white;
+    font-weight: 900;
+ }
+.ayush2{
+  background-color: #222f3d;
+  color:white;
+  height:530px;
+  display: flex;
+  justify-content:space-evenly;
+}
+ul{
+  margin-top:20px;
+}
+ul p{
+  font-size:20px;
+  font-weight:bold;
+}
+ul a{
+  display: block;
+  font-size:15px;
+  margin-top:10px;
+  color:#dddddd;
+}
+.ayush3{
+  background-color: #222f3d;
+  color:white;
+  border-top:0.5px solid white;
+  height:70px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.logo{
+  background-image: url("amazon.logo.png");
+  height:40px;
+  width:80px;
+  background-size:cover;
+}
+.ayush4{
+  background-color: #1e2934;
+  color:white;
+  height:75px; 
+  font-size:14px;
+  text-align: center;
+}
+.pages{
+  padding-top:24px;
+}
+.copy-right{
+  padding-top:5px;
+}
+.add-icon i{
+  font-size:20px;
+}
